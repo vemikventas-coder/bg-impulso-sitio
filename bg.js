@@ -8,6 +8,17 @@
   var BG = (window.BGv11 = { app: app, reducido: reducido });
   app.classList.add('bg-js');
 
+  /* Navegadores sin :has() (Firefox anterior a 121, Safari anterior a 15.4): el aislamiento del sitio anfitrión
+     se activa con una clase en <body>, y los otros bloques de la página se ocultan a mano. */
+  var conHas = false;
+  try { conHas = !!(window.CSS && CSS.supports && CSS.supports('selector(:has(*))')); } catch (e) {}
+  if (!conHas) {
+    document.body.classList.add('bg-pagina');
+    [].forEach.call(document.querySelectorAll('.jw-element'), function (el) {
+      if (!el.contains(app) && !app.contains(el)) el.style.display = 'none';
+    });
+  }
+
   BG.dinero = function (n) { return '$' + fmt.format(n); };
   BG.wa = function (texto) { return 'https://wa.me/' + app.dataset.bgWa + '?text=' + encodeURIComponent(texto); };
 
@@ -1341,4 +1352,79 @@
       }
     });
   });
+})();
+
+;
+/* BG v11 · anticipo: cuando la página ya cargó, pide en orden y de dos en dos las imágenes de las láminas
+   siguientes, para que estén listas antes de que el visitante llegue a ellas; al final, el visor 3D y su modelo.
+   No corre con «ahorro de datos» activado ni en conexiones 2G. */
+(function () {
+  var BG = window.BGv11;
+  if (!BG) return;
+
+  /* ── Calentamiento: cada lámina diferida (content-visibility:auto) se dibuja una vez en un rato libre, para que
+     el navegador recuerde su alto exacto y nada se mueva al bajar o al saltar desde el índice. BG.caliente avisa. ── */
+  var ocioso = window.requestIdleCallback ? function (f) { window.requestIdleCallback(f, { timeout: 1500 }); } : function (f) { setTimeout(f, 120); };
+  var pend = [].slice.call(BG.app.querySelectorAll('.bg-lamina'));
+  BG.caliente = false;
+  function calentar() {
+    var l = pend.shift();
+    if (!l) { BG.caliente = true; return; }
+    if (window.getComputedStyle(l).contentVisibility !== 'auto') { calentar(); return; }
+    l.style.contentVisibility = 'visible';
+    window.requestAnimationFrame(function () {
+      window.requestAnimationFrame(function () { l.style.contentVisibility = ''; ocioso(calentar); });
+    });
+  }
+  function alCargar(f, espera) {
+    var ir = function () { setTimeout(f, espera); };
+    if (document.readyState === 'complete') ir(); else window.addEventListener('load', ir);
+  }
+  alCargar(function () { ocioso(calentar); }, 300);
+
+  var red = navigator.connection || {};
+  if (red.saveData || /(^|-)2g$/.test(red.effectiveType || '')) return;
+
+  /* La misma elección de archivo que hará la imagen real: su <source> vigente si está en un <picture>, o su srcset. */
+  function datos(im) {
+    var f = im, p = im.parentNode;
+    if (p && p.tagName === 'PICTURE') {
+      var fuentes = p.querySelectorAll('source');
+      for (var i = 0; i < fuentes.length; i++) {
+        var m = fuentes[i].getAttribute('media');
+        if (!m || window.matchMedia(m).matches) { f = fuentes[i]; break; }
+      }
+    }
+    return { srcset: f.getAttribute('srcset'), sizes: f.getAttribute('sizes'), src: im.getAttribute('src') };
+  }
+
+  function empezar() {
+    var cola = [].slice.call(BG.app.querySelectorAll('img[loading="lazy"]')).filter(function (im) {
+      return !im.complete && !im.closest('.bg-machen__poster, .bg-indice__vista');
+    });
+    var vistos = {}, activos = 0, cerrado = false;
+    function cierre() {
+      if (cerrado) return; cerrado = true;
+      var v = BG.app.querySelector('[data-bg-visor][data-bg-glb]');
+      if (!v) return;
+      [v.getAttribute('data-bg-visor'), v.getAttribute('data-bg-glb')].forEach(function (u) {
+        var l = document.createElement('link'); l.rel = 'prefetch'; l.href = u; document.head.appendChild(l);
+      });
+    }
+    function sig() {
+      while (activos < 2 && cola.length) {
+        var d = datos(cola.shift()), clave = d.srcset || d.src;
+        if (!clave || vistos[clave]) continue;
+        vistos[clave] = 1; activos++;
+        var pre = new Image();
+        pre.onload = pre.onerror = function () { activos--; sig(); };
+        if (d.sizes) pre.sizes = d.sizes;
+        if (d.srcset) pre.srcset = d.srcset;
+        if (d.src) pre.src = d.src;
+      }
+      if (!cola.length && !activos) cierre();
+    }
+    sig();
+  }
+  alCargar(empezar, 1200);
 })();
