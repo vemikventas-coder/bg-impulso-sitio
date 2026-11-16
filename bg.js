@@ -94,6 +94,29 @@
     if (b) BG.iva(b.dataset.bgIva);
   });
 
+  /* ── Enlaces internos ──
+     El sitio anfitrión declara <base href="https://www.vemik.com.mx/">: un enlace «#bg-planes» ya no apunta a esta
+     página sino al inicio de VEMIK. Todo enlace cuyo destino esté dentro de la página se resuelve aquí, con la
+     navegación propia del navegador (desplaza, guarda el historial y avisa con hashchange). */
+  function destinoInterno(a) {
+    var attr = a.getAttribute('href') || '', sinBarra = function (r) { return r.replace(/\/+$/, ''); };
+    if (attr.charAt(0) !== '#' && (a.origin !== window.location.origin || sinBarra(a.pathname) !== sinBarra(window.location.pathname))) return null;
+    var h = attr.charAt(0) === '#' ? attr : a.hash, el = null;
+    if (!h || h.length < 2) return null;
+    try { el = document.getElementById(decodeURIComponent(h.slice(1))); } catch (e) {}
+    return el && app.contains(el) ? { hash: h, el: el } : null;
+  }
+  app.addEventListener('click', function (e) {
+    if (e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    var a = e.target.closest ? e.target.closest('a[href]') : null;
+    if (!a || !app.contains(a)) return;
+    var d = destinoInterno(a);
+    if (!d) return;
+    e.preventDefault();
+    if (window.location.hash === d.hash) d.el.scrollIntoView({ behavior: reducido ? 'auto' : 'smooth', block: 'start' });
+    else window.location.hash = d.hash;
+  });
+
   /* ── Barra: menú en celular y lámina actual ── */
   var boton = app.querySelector('[data-bg-menu]');
   function cerrarMenu() { app.classList.remove('bg-menu-abierto'); if (boton) boton.setAttribute('aria-expanded', 'false'); }
@@ -105,7 +128,7 @@
     app.addEventListener('click', function (e) { if (e.target.closest('.bg-barra__indice a')) cerrarMenu(); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') cerrarMenu(); });
   }
-  var enlaces = [].slice.call(app.querySelectorAll('.bg-barra__indice a[href^="#"]'));
+  var enlaces = [].slice.call(app.querySelectorAll('.bg-barra__indice a[href*="#"]'));
   if (enlaces.length && 'IntersectionObserver' in window) {
     var actual = new IntersectionObserver(function (es) {
       es.forEach(function (e) {

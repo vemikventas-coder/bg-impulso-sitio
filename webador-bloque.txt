@@ -1,16 +1,16 @@
 <!-- BG Impulso Digital v11 · 2026-11-16 -->
 <link rel="preconnect" href="https://vemikventas-coder.github.io"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/sofiasansextracondensed/v6/raxoHjafvdAIOju4GcIfJH0i7zi50X3zRtuLNiMS0fSuJk4.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/sofiasanscondensed/v6/r05EGKVS5aVKd567NYXawnFKJaTtoAuLnIcIptE.woff2"><link rel="preload" as="font" type="font/woff2" crossorigin href="https://fonts.gstatic.com/s/sofiasans/v20/Yq6R-LCVXSLy9uPBwlATrOF6kg.woff2">
-<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;600;800&family=Sofia+Sans+Condensed:wght@500;700;800&family=Sofia+Sans+Extra+Condensed:wght@800;900&display=swap" rel="stylesheet"><link href="https://vemikventas-coder.github.io/bg-impulso-sitio/bg.css?v=mwjle1oh" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@400;600;800&family=Sofia+Sans+Condensed:wght@500;700;800&family=Sofia+Sans+Extra+Condensed:wght@800;900&display=swap" rel="stylesheet"><link href="https://vemikventas-coder.github.io/bg-impulso-sitio/bg.css?v=mwjo2ua4" rel="stylesheet">
 <style>body:has(#bg-app){background:#ff4438!important;margin:0!important}body:has(#bg-app) :is(header,nav,footer):not(#bg-app *),body:has(#bg-app) :is(.jw-header,.jw-footer,.jw-menu,.jw-mobile-menu,.jw-mobile-header,.jw-breadcrumbs,#header,#footer){display:none!important}body:has(#bg-app) .jw-element:not(:has(#bg-app)):not(#bg-app *){display:none!important}body:has(#bg-app) :is(.jw-content,.jw-strip__content,.jw-strip__content-container,.jw-section,.jw-element-html,.jw-html-wrapper){max-width:none!important;width:100%!important;padding:0!important;margin:0!important;overflow:visible!important}body:has(#bg-app) .jw-element-html>div{margin:0!important;padding:0!important}body:has(#bg-app) .crisp-client,body:has(#bg-app) #crisp-chatbox,body:has(#bg-app) a[href="#top"]:not(#bg-app *){display:none!important}body.bg-pagina{background:#ff4438!important;margin:0!important}body.bg-pagina :is(header,nav,footer):not(#bg-app *),body.bg-pagina :is(.jw-header,.jw-footer,.jw-menu,.jw-mobile-menu,.jw-mobile-header,.jw-breadcrumbs,#header,#footer){display:none!important}body.bg-pagina :is(.jw-content,.jw-strip__content,.jw-strip__content-container,.jw-section,.jw-element-html,.jw-html-wrapper){max-width:none!important;width:100%!important;padding:0!important;margin:0!important;overflow:visible!important}body.bg-pagina .jw-element-html>div{margin:0!important;padding:0!important}body.bg-pagina .crisp-client,body.bg-pagina #crisp-chatbox,body.bg-pagina a[href="#top"]:not(#bg-app *){display:none!important}</style>
 <div id="bg-app" data-bg-wa="525637093090" data-bg-iva="con">
 <!-- 00-barra.mjs -->
 
 <header class="bg-barra">
-  <a class="bg-barra__logo" href="#bg-portada" aria-label="BG Impulso Digital, inicio"><span class="bg-logo"><span class="bg-logo__bg">BG</span><svg class="bg-ico bg-logo__flecha" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg><span class="bg-logo__txt">Impulso<br>Digital</span></span></a>
+  <a class="bg-barra__logo" href="https://www.vemik.com.mx/bg-impulso-digital#bg-portada" aria-label="BG Impulso Digital, inicio"><span class="bg-logo"><span class="bg-logo__bg">BG</span><svg class="bg-ico bg-logo__flecha" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg><span class="bg-logo__txt">Impulso<br>Digital</span></span></a>
   <nav class="bg-barra__indice" id="bg-barra-indice" aria-label="Secciones de la página">
-    <a href="#bg-proyectos" data-bg-grupo="proyectos"><b>L-01</b>Proyectos</a><a href="#bg-servicios" data-bg-grupo="servicios"><b>L-06</b>Servicios</a><a href="#bg-planes" data-bg-grupo="planes"><b>L-07</b>Planes</a><a href="#bg-equipo" data-bg-grupo="equipo"><b>L-09</b>Equipo</a>
+    <a href="https://www.vemik.com.mx/bg-impulso-digital#bg-proyectos" data-bg-grupo="proyectos"><b>L-01</b>Proyectos</a><a href="https://www.vemik.com.mx/bg-impulso-digital#bg-servicios" data-bg-grupo="servicios"><b>L-06</b>Servicios</a><a href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes" data-bg-grupo="planes"><b>L-07</b>Planes</a><a href="https://www.vemik.com.mx/bg-impulso-digital#bg-equipo" data-bg-grupo="equipo"><b>L-09</b>Equipo</a>
   </nav>
-  <a class="bg-barra__cotizar" href="#bg-cotizar"><span>Cotizar<i> proyecto</i></span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
+  <a class="bg-barra__cotizar" href="https://www.vemik.com.mx/bg-impulso-digital#bg-cotizar"><span>Cotizar<i> proyecto</i></span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
   <button class="bg-barra__menu" type="button" data-bg-menu aria-expanded="false" aria-controls="bg-barra-indice">
     <span class="bg-oculto">Abrir o cerrar el índice</span><svg class="bg-ico bg-barra__ico-menu" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M8 18h48M8 32h48M8 46h48" stroke="currentColor" stroke-width="7" fill="none"/></svg><svg class="bg-ico bg-barra__ico-cerrar" viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M14 14l36 36M50 14L14 50" stroke="currentColor" stroke-width="8" fill="none"/></svg>
   </button>
@@ -27,7 +27,7 @@
 
     <div class="bg-portada__pieza" data-bg-pieza>
       <div class="bg-portada__escena">
-        <a class="bg-portada__capa" href="#bg-lanzamiento" style="--i:0"><img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/lanzamiento-creador-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/lanzamiento-creador-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/lanzamiento-creador-escritorio-1600.webp 1600w" sizes="(max-width: 900px) 72vw, 34vw" width="1600" height="1000" alt="Creador de baños de LANZAMIENTO" loading="eager" fetchpriority="high" decoding="async"></a><a class="bg-portada__capa" href="#bg-machen" style="--i:1"><img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 900px) 72vw, 34vw" width="1600" height="1000" alt="Portada de Importadora MACHEN" loading="eager" fetchpriority="high" decoding="async"></a><a class="bg-portada__capa" href="#bg-vemik" style="--i:2"><img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 900px) 72vw, 34vw" width="1600" height="1000" alt="Portada de Grupo VEMIK" loading="eager" fetchpriority="high" decoding="async"></a>
+        <a class="bg-portada__capa" href="https://www.vemik.com.mx/bg-impulso-digital#bg-lanzamiento" style="--i:0"><img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/lanzamiento-creador-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/lanzamiento-creador-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/lanzamiento-creador-escritorio-1600.webp 1600w" sizes="(max-width: 900px) 72vw, 34vw" width="1600" height="1000" alt="Creador de baños de LANZAMIENTO" loading="eager" fetchpriority="high" decoding="async"></a><a class="bg-portada__capa" href="https://www.vemik.com.mx/bg-impulso-digital#bg-machen" style="--i:1"><img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 900px) 72vw, 34vw" width="1600" height="1000" alt="Portada de Importadora MACHEN" loading="eager" fetchpriority="high" decoding="async"></a><a class="bg-portada__capa" href="https://www.vemik.com.mx/bg-impulso-digital#bg-vemik" style="--i:2"><img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 900px) 72vw, 34vw" width="1600" height="1000" alt="Portada de Grupo VEMIK" loading="eager" fetchpriority="high" decoding="async"></a>
       </div>
       <div class="bg-portada__rotulos" aria-hidden="true">
         <span class="bg-rotulo-guia " style="--i:0;--retraso:0.90s" data-bg-ver><i aria-hidden="true"></i><b>Tienda con creador de baños</b></span><span class="bg-rotulo-guia " style="--i:1;--retraso:1.06s" data-bg-ver><i aria-hidden="true"></i><b>Catálogo con 3D</b></span><span class="bg-rotulo-guia " style="--i:2;--retraso:1.22s" data-bg-ver><i aria-hidden="true"></i><b>Tienda y portal industrial</b></span>
@@ -36,7 +36,7 @@
 
     <div class="bg-portada__oferta">
       <p class="bg-texto bg-texto--grande">Diseñamos, programamos y modelamos en 3D catálogos, tiendas y portales para empresas mexicanas. Con factura.</p>
-      <a class="bg-enlace " href="#bg-proyectos" ><span>Ver los planos de cada proyecto</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+      <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-proyectos" ><span>Ver los planos de cada proyecto</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
     </div>
 
     <div class="bg-cajetin bg-portada__cajetin" data-bg-cajetin>
@@ -89,7 +89,7 @@
       <ol class="bg-indice__filas" data-bg-ver>
         
       <li class="bg-indice__fila bg-indice__fila--grande" style="--i:0" data-bg-tipo="tienda" data-bg-indice-fila>
-        <a class="bg-indice__enlace" href="#bg-vemik" data-bg-indice-rotulo="L-02 · Grupo VEMIK" data-bg-indice-dominio="vemik.com.mx">
+        <a class="bg-indice__enlace" href="https://www.vemik.com.mx/bg-impulso-digital#bg-vemik" data-bg-indice-rotulo="L-02 · Grupo VEMIK" data-bg-indice-dominio="vemik.com.mx">
           <div class="bg-indice__lam"><b>L-02</b></div>
           <div class="bg-indice__quien">
             <h3 class="bg-sub bg-indice__nombre">Grupo VEMIK</h3>
@@ -105,7 +105,7 @@
         </a>
       </li>
       <li class="bg-indice__fila bg-indice__fila--grande" style="--i:1" data-bg-tipo="catalogo" data-bg-indice-fila>
-        <a class="bg-indice__enlace" href="#bg-machen" data-bg-indice-rotulo="L-03 · Importadora MACHEN" data-bg-indice-dominio="importadoramachen.com.mx">
+        <a class="bg-indice__enlace" href="https://www.vemik.com.mx/bg-impulso-digital#bg-machen" data-bg-indice-rotulo="L-03 · Importadora MACHEN" data-bg-indice-dominio="importadoramachen.com.mx">
           <div class="bg-indice__lam"><b>L-03</b></div>
           <div class="bg-indice__quien">
             <h3 class="bg-sub bg-indice__nombre">Importadora MACHEN</h3>
@@ -121,7 +121,7 @@
         </a>
       </li>
       <li class="bg-indice__fila bg-indice__fila--grande" style="--i:2" data-bg-tipo="tienda" data-bg-indice-fila>
-        <a class="bg-indice__enlace" href="#bg-lanzamiento" data-bg-indice-rotulo="L-04 · LANZAMIENTO" data-bg-indice-dominio="lanzamiento.com.mx">
+        <a class="bg-indice__enlace" href="https://www.vemik.com.mx/bg-impulso-digital#bg-lanzamiento" data-bg-indice-rotulo="L-04 · LANZAMIENTO" data-bg-indice-dominio="lanzamiento.com.mx">
           <div class="bg-indice__lam"><b>L-04</b></div>
           <div class="bg-indice__quien">
             <h3 class="bg-sub bg-indice__nombre">LANZAMIENTO</h3>
@@ -137,7 +137,7 @@
         </a>
       </li>
       <li class="bg-indice__fila" style="--i:3" data-bg-tipo="catalogo" data-bg-indice-fila>
-        <a class="bg-indice__enlace" href="#bg-otros-clickoffice" data-bg-indice-rotulo="L-05 · A · Click Office Pro" data-bg-indice-dominio="clickofficepro.com">
+        <a class="bg-indice__enlace" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-clickoffice" data-bg-indice-rotulo="L-05 · A · Click Office Pro" data-bg-indice-dominio="clickofficepro.com">
           <div class="bg-indice__lam"><b>L-05</b><i>A</i></div>
           <div class="bg-indice__quien">
             <h3 class="bg-sub bg-indice__nombre">Click Office Pro</h3>
@@ -153,7 +153,7 @@
         </a>
       </li>
       <li class="bg-indice__fila" style="--i:4" data-bg-tipo="pagina" data-bg-indice-fila>
-        <a class="bg-indice__enlace" href="#bg-otros-pilar" data-bg-indice-rotulo="L-05 · B · El Pilar del Amor" data-bg-indice-dominio="El Pilar del Amor">
+        <a class="bg-indice__enlace" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-pilar" data-bg-indice-rotulo="L-05 · B · El Pilar del Amor" data-bg-indice-dominio="El Pilar del Amor">
           <div class="bg-indice__lam"><b>L-05</b><i>B</i></div>
           <div class="bg-indice__quien">
             <h3 class="bg-sub bg-indice__nombre">El Pilar del Amor</h3>
@@ -169,7 +169,7 @@
         </a>
       </li>
       <li class="bg-indice__fila" style="--i:5" data-bg-tipo="pagina" data-bg-indice-fila>
-        <a class="bg-indice__enlace" href="#bg-otros-vv" data-bg-indice-rotulo="L-05 · C · V&amp;V Automotriz" data-bg-indice-dominio="V&amp;V Automotriz">
+        <a class="bg-indice__enlace" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-vv" data-bg-indice-rotulo="L-05 · C · V&amp;V Automotriz" data-bg-indice-dominio="V&amp;V Automotriz">
           <div class="bg-indice__lam"><b>L-05</b><i>C</i></div>
           <div class="bg-indice__quien">
             <h3 class="bg-sub bg-indice__nombre">V&amp;V Automotriz</h3>
@@ -313,7 +313,7 @@
       </div>
       <div class="bg-rojo bg-vemik__cierre">
         <p class="bg-texto">Este proyecto es la referencia de <b>BG Lidera</b>, nuestro plan para tienda grande o portal a la medida.</p>
-        <a class="bg-enlace " href="#bg-planes" ><span>Ver BG Lidera en los planes</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+        <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes" ><span>Ver BG Lidera en los planes</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
         <a class="bg-btn bg-btn--tinta bg-btn--grande bg-vemik__accion" href="https://wa.me/525637093090?text=Hola%2C%20equipo%20BG.%20Vi%20el%20proyecto%20de%20Grupo%20VEMIK%20y%20quiero%20algo%20parecido%20para%20mi%20empresa%3A%20" target="_blank" rel="noopener" ><span>Quiero algo así</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         <a class="bg-enlace " href="https://www.vemik.com.mx/" target="_blank" rel="noopener" ><span>Visitar vemik.com.mx</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
       </div>
@@ -409,7 +409,7 @@
       <div class="bg-machen__plan">
         <p class="bg-rotulo">Plan de referencia: BG Escala</p>
         <p class="bg-chico">El visor 3D y la carga de 107 modelos fueron alcance especial de este proyecto.</p>
-        <a class="bg-enlace " href="#bg-planes" ><span>Ver el plan BG Escala</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+        <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes" ><span>Ver el plan BG Escala</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
       </div>
     </div>
 
@@ -614,7 +614,7 @@
         <p class="bg-texto">Un sitio con creador de ambientes y calculadora entra en el plan BG Lidera.</p>
         <a class="bg-btn bg-btn--tinta bg-btn--grande bg-lanzamiento__cotizar" href="https://wa.me/525637093090?text=Hola%2C%20equipo%20BG.%20Vi%20el%20proyecto%20de%20LANZAMIENTO%20y%20quiero%20algo%20parecido%20para%20mi%20empresa%3A%20" target="_blank" rel="noopener" ><span>Cotizar un proyecto así</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         <div class="bg-lanzamiento__enlaces">
-          <a class="bg-enlace " href="#bg-planes" ><span>Ver el plan BG Lidera</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+          <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes" ><span>Ver el plan BG Lidera</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
           <a class="bg-enlace " href="https://www.lanzamiento.com.mx/" target="_blank" rel="noopener" ><span>Abrir lanzamiento.com.mx</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         </div>
       </div>
@@ -630,17 +630,17 @@
       <nav class="bg-otros__clave bg-rojo" aria-label="Proyectos de esta lámina">
         <p class="bg-texto bg-texto--grande">Tres sitios. Cada uno es la referencia de un plan.</p>
         <ol class="bg-otros__claves">
-        <li><a class="bg-otros__ir" href="#bg-otros-clickoffice">
+        <li><a class="bg-otros__ir" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-clickoffice">
           <b class="bg-otros__letra" aria-hidden="true">A</b>
           <span class="bg-otros__ir-txt"><strong>Un catálogo para cotizar</strong><small class="bg-rotulo">Click Office Pro · Plan BG Consolida</small></span>
           <svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg>
         </a></li>
-        <li><a class="bg-otros__ir" href="#bg-otros-pilar">
+        <li><a class="bg-otros__ir" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-pilar">
           <b class="bg-otros__letra" aria-hidden="true">B</b>
           <span class="bg-otros__ir-txt"><strong>Una página para celebraciones</strong><small class="bg-rotulo">El Pilar del Amor · Plan BG Despega</small></span>
           <svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg>
         </a></li>
-        <li><a class="bg-otros__ir" href="#bg-otros-vv">
+        <li><a class="bg-otros__ir" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-vv">
           <b class="bg-otros__letra" aria-hidden="true">C</b>
           <span class="bg-otros__ir-txt"><strong>La marca de un taller</strong><small class="bg-rotulo">V&amp;V Automotriz · Plan BG Destaca</small></span>
           <svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg>
@@ -798,7 +798,7 @@
     </article>
     <div class="bg-otros__cierre">
       <p class="bg-texto">Los planes completos, con lo que incluye cada uno y su precio total, están más abajo.</p>
-      <a class="bg-enlace " href="#bg-planes" ><span>Ver planes y precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+      <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes" ><span>Ver planes y precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
     </div></div>
   <p class="bg-lamina__sello" aria-hidden="true"><b>L-05</b><span>Más proyectos</span></p>
 </section>
@@ -819,7 +819,7 @@
         <span class="bg-servicios__globo" aria-hidden="true">1</span>
         <h3 class="bg-sub bg-servicios__nombre">Sitios, catálogos y tiendas</h3>
         <p class="bg-texto bg-servicios__frase">Desde una página hasta un portal con miles de productos, carrito y cotización.</p>
-        <a class="bg-enlace bg-servicios__ir" href="#bg-planes" aria-label="Ver planes: Sitios, catálogos y tiendas"><span>Ver planes</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+        <a class="bg-enlace bg-servicios__ir" href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes" aria-label="Ver planes: Sitios, catálogos y tiendas"><span>Ver planes</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
       </li>
       <li class="bg-servicios__pieza" data-bg-ver style="--i:1">
         <span class="bg-servicios__dibujo" aria-hidden="true"><svg class="bg-servicios__losa" viewBox="0 0 184 132" width="184" height="132" aria-hidden="true" focusable="false"><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0s" pathLength="1" d="M55.2 86.0L107.2 116.0L107.2 128.0L3.3 68.0L3.3 56.0L55.2 86.0"/><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0s" pathLength="1" d="M143.5 95.0L107.2 116.0L107.2 128.0L179.9 86.0L179.9 74.0L143.5 95.0"/><path class="bg-servicios__t bg-servicios__t--rojo" style="--d:0s" pathLength="1" d="M128.0 44.0L179.9 74.0L107.2 116.0L3.3 56.0L76.0 14.0L128.0 44.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.22s" pathLength="1" d="M96.8 26.0L24.0 68.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.26s" pathLength="1" d="M117.6 38.0L44.8 80.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.3s" pathLength="1" d="M138.4 50.0L65.6 92.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.33999999999999997s" pathLength="1" d="M159.1 62.0L86.4 104.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.34s" pathLength="1" d="M57.8 24.5L161.7 84.5"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.38s" pathLength="1" d="M39.6 35.0L143.5 95.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.42000000000000004s" pathLength="1" d="M21.4 45.5L125.4 105.5"/><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0.5s" pathLength="1" d="M63.0 70.5L77.7 79.0L77.7 45.0L48.3 28.0L48.3 62.0L63.0 70.5"/><path class="bg-servicios__t bg-servicios__t--rojo" style="--d:0.56s" pathLength="1" d="M92.5 70.5L77.7 79.0L77.7 45.0L107.2 28.0L107.2 62.0L92.5 70.5"/><path class="bg-servicios__t bg-servicios__t--papel" style="--d:0.62s" pathLength="1" d="M92.5 19.5L107.2 28.0L77.7 45.0L48.3 28.0L77.7 11.0L92.5 19.5"/></svg></span>
@@ -827,7 +827,7 @@
         <span class="bg-servicios__globo" aria-hidden="true">2</span>
         <h3 class="bg-sub bg-servicios__nombre">Modelado 3D</h3>
         <p class="bg-texto bg-servicios__frase">Tu producto en 3D para girarlo en la página, y ambientes fotorrealistas para mostrarlo en uso.</p>
-        <a class="bg-enlace bg-servicios__ir" href="#bg-servicios-precios" aria-label="Ver precios: Modelado 3D"><span>Ver precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+        <a class="bg-enlace bg-servicios__ir" href="https://www.vemik.com.mx/bg-impulso-digital#bg-servicios-precios" aria-label="Ver precios: Modelado 3D"><span>Ver precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
       </li>
       <li class="bg-servicios__pieza" data-bg-ver style="--i:2">
         <span class="bg-servicios__dibujo" aria-hidden="true"><svg class="bg-servicios__losa" viewBox="0 0 184 132" width="184" height="132" aria-hidden="true" focusable="false"><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0s" pathLength="1" d="M55.2 86.0L107.2 116.0L107.2 128.0L3.3 68.0L3.3 56.0L55.2 86.0"/><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0s" pathLength="1" d="M143.5 95.0L107.2 116.0L107.2 128.0L179.9 86.0L179.9 74.0L143.5 95.0"/><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0s" pathLength="1" d="M128.0 44.0L179.9 74.0L107.2 116.0L3.3 56.0L76.0 14.0L128.0 44.0"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M83.8 22.5L88.1 25.0L82.9 28.0L74.3 23.0L79.5 20.0L83.8 22.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M23.2 57.5L27.5 60.0L22.3 63.0L13.6 58.0L18.8 55.0L23.2 57.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M99.4 31.5L103.7 34.0L98.5 37.0L89.9 32.0L95.1 29.0L99.4 31.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M38.8 66.5L43.1 69.0L37.9 72.0L29.2 67.0L34.4 64.0L38.8 66.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M115.0 40.5L119.3 43.0L114.1 46.0L105.4 41.0L110.6 38.0L115.0 40.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M54.4 75.5L58.7 78.0L53.5 81.0L44.8 76.0L50.0 73.0L54.4 75.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M130.6 49.5L134.9 52.0L129.7 55.0L121.0 50.0L126.2 47.0L130.6 49.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M69.9 84.5L74.3 87.0L69.1 90.0L60.4 85.0L65.6 82.0L69.9 84.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M146.1 58.5L150.5 61.0L145.3 64.0L136.6 59.0L141.8 56.0L146.1 58.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M85.5 93.5L89.9 96.0L84.7 99.0L76.0 94.0L81.2 91.0L85.5 93.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M161.7 67.5L166.1 70.0L160.9 73.0L152.2 68.0L157.4 65.0L161.7 67.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.3s" pathLength="1" d="M101.1 102.5L105.4 105.0L100.2 108.0L91.6 103.0L96.8 100.0L101.1 102.5"/><path class="bg-servicios__t bg-servicios__t--clara" style="--d:0.4s" pathLength="1" d="M114.1 52.0L157.4 77.0L112.4 103.0L25.8 53.0L70.8 27.0L114.1 52.0"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--papel" style="--d:0.62s" pathLength="1" d="M99.4 62.5L105.4 73.0L69.1 66.0L93.3 52.0L99.4 62.5"/></svg></span>
@@ -835,7 +835,7 @@
         <span class="bg-servicios__globo" aria-hidden="true">3</span>
         <h3 class="bg-sub bg-servicios__nombre">Video y animación</h3>
         <p class="bg-texto bg-servicios__frase">Anuncios animados, reels y videos de producto para tus redes y tu sitio.</p>
-        <a class="bg-enlace bg-servicios__ir" href="#bg-servicios-precios" aria-label="Ver precios: Video y animación"><span>Ver precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+        <a class="bg-enlace bg-servicios__ir" href="https://www.vemik.com.mx/bg-impulso-digital#bg-servicios-precios" aria-label="Ver precios: Video y animación"><span>Ver precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
       </li>
       <li class="bg-servicios__pieza" data-bg-ver style="--i:3">
         <span class="bg-servicios__dibujo" aria-hidden="true"><svg class="bg-servicios__losa" viewBox="0 0 184 132" width="184" height="132" aria-hidden="true" focusable="false"><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0s" pathLength="1" d="M55.2 86.0L107.2 116.0L107.2 128.0L3.3 68.0L3.3 56.0L55.2 86.0"/><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0s" pathLength="1" d="M143.5 95.0L107.2 116.0L107.2 128.0L179.9 86.0L179.9 74.0L143.5 95.0"/><path class="bg-servicios__t bg-servicios__t--papel" style="--d:0s" pathLength="1" d="M128.0 44.0L179.9 74.0L107.2 116.0L3.3 56.0L76.0 14.0L128.0 44.0"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--tinta" style="--d:0.3s" pathLength="1" d="M111.5 44.5L147.0 65.0L136.6 71.0L65.6 30.0L76.0 24.0L111.5 44.5"/><path class="bg-servicios__t bg-servicios__t--sin bg-servicios__t--tinta" style="--d:0.38s" pathLength="1" d="M84.7 47.0L108.9 61.0L98.5 67.0L50.0 39.0L60.4 33.0L84.7 47.0"/><path class="bg-servicios__t " style="--d:0.46s" pathLength="1" d="M63.9 55.0L84.7 67.0L62.1 80.0L20.6 56.0L43.1 43.0L63.9 55.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.54s" pathLength="1" d="M43.1 43.0L62.1 80.0"/><path class="bg-servicios__t bg-servicios__t--fina" style="--d:0.54s" pathLength="1" d="M84.7 67.0L20.6 56.0"/><path class="bg-servicios__t bg-servicios__t--tinta" style="--d:0.62s" pathLength="1" d="M102.8 87.5L121.0 98.0L107.2 106.0L70.8 85.0L84.7 77.0L102.8 87.5"/></svg></span>
@@ -843,7 +843,7 @@
         <span class="bg-servicios__globo" aria-hidden="true">4</span>
         <h3 class="bg-sub bg-servicios__nombre">Publicidad</h3>
         <p class="bg-texto bg-servicios__frase">Diseño de anuncios y gestión de campañas en Facebook e Instagram.</p>
-        <a class="bg-enlace bg-servicios__ir" href="#bg-servicios-precios" aria-label="Ver precios: Publicidad"><span>Ver precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+        <a class="bg-enlace bg-servicios__ir" href="https://www.vemik.com.mx/bg-impulso-digital#bg-servicios-precios" aria-label="Ver precios: Publicidad"><span>Ver precios</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
       </li>
       </ol>
     </div>
@@ -877,7 +877,7 @@
       </figure>
           <div class="bg-servicios__acciones">
             <a class="bg-btn bg-btn--tinta " href="https://wa.me/525637093090?text=Hola%2C%20equipo%20BG.%20Quiero%20cotizar%3A%20un%20video%20como%20los%20de%20su%20p%C3%A1gina.%20Mi%20empresa%20es%3A%20" target="_blank" rel="noopener" ><span>Cotizar un video</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
-            <a class="bg-enlace " href="#bg-servicios-precios" ><span>Ver precios de video</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
+            <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-servicios-precios" ><span>Ver precios de video</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></a>
           </div>
         </div>
       <figure class="bg-servicios__cuadro" data-bg-ver data-bg-video style="--prop:0.5625;--i:1">
@@ -1041,7 +1041,7 @@
         </div>
       </div>
       <div class="bg-planes__escalera" data-bg-planes-escalera="Planes de BG, del más chico al más grande" data-bg-plan-inicial="lidera" data-bg-ver>
-      <a class="bg-planes__peldano" href="#bg-planes-despega" id="bg-planes-tab-despega" data-bg-plan="despega" draggable="false" style="--n:0" aria-labelledby="bg-planes-n-despega" aria-describedby="bg-planes-d-despega bg-planes-e-despega">
+      <a class="bg-planes__peldano" href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes-despega" id="bg-planes-tab-despega" data-bg-plan="despega" draggable="false" style="--n:0" aria-labelledby="bg-planes-n-despega" aria-describedby="bg-planes-d-despega bg-planes-e-despega">
         <p class="bg-cota bg-planes__cota" data-bg-ver id="bg-planes-e-despega"><span class="bg-cota__linea" aria-hidden="true"></span><span class="bg-cota__txt">Entrega: 1 semana</span><span class="bg-cota__linea" aria-hidden="true"></span></p>
         <span class="bg-planes__caja">
           <span class="bg-sub bg-planes__nombre" id="bg-planes-n-despega">BG Despega</span>
@@ -1055,7 +1055,7 @@
         </span>
         <span class="bg-planes__pie" aria-hidden="true"><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></span>
       </a>
-      <a class="bg-planes__peldano" href="#bg-planes-destaca" id="bg-planes-tab-destaca" data-bg-plan="destaca" draggable="false" style="--n:1" aria-labelledby="bg-planes-n-destaca" aria-describedby="bg-planes-d-destaca bg-planes-e-destaca">
+      <a class="bg-planes__peldano" href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes-destaca" id="bg-planes-tab-destaca" data-bg-plan="destaca" draggable="false" style="--n:1" aria-labelledby="bg-planes-n-destaca" aria-describedby="bg-planes-d-destaca bg-planes-e-destaca">
         <p class="bg-cota bg-planes__cota" data-bg-ver id="bg-planes-e-destaca"><span class="bg-cota__linea" aria-hidden="true"></span><span class="bg-cota__txt">Entrega: 2 semanas</span><span class="bg-cota__linea" aria-hidden="true"></span></p>
         <span class="bg-planes__caja">
           <span class="bg-sub bg-planes__nombre" id="bg-planes-n-destaca">BG Destaca</span>
@@ -1069,7 +1069,7 @@
         </span>
         <span class="bg-planes__pie" aria-hidden="true"><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></span>
       </a>
-      <a class="bg-planes__peldano" href="#bg-planes-consolida" id="bg-planes-tab-consolida" data-bg-plan="consolida" draggable="false" style="--n:2" aria-labelledby="bg-planes-n-consolida" aria-describedby="bg-planes-d-consolida bg-planes-e-consolida">
+      <a class="bg-planes__peldano" href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes-consolida" id="bg-planes-tab-consolida" data-bg-plan="consolida" draggable="false" style="--n:2" aria-labelledby="bg-planes-n-consolida" aria-describedby="bg-planes-d-consolida bg-planes-e-consolida">
         <p class="bg-cota bg-planes__cota" data-bg-ver id="bg-planes-e-consolida"><span class="bg-cota__linea" aria-hidden="true"></span><span class="bg-cota__txt">Entrega: 2 semanas</span><span class="bg-cota__linea" aria-hidden="true"></span></p>
         <span class="bg-planes__caja">
           <span class="bg-sub bg-planes__nombre" id="bg-planes-n-consolida">BG Consolida</span>
@@ -1083,7 +1083,7 @@
         </span>
         <span class="bg-planes__pie" aria-hidden="true"><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></span>
       </a>
-      <a class="bg-planes__peldano bg-planes__peldano--mayor" href="#bg-planes-escala" id="bg-planes-tab-escala" data-bg-plan="escala" draggable="false" style="--n:3" aria-labelledby="bg-planes-n-escala" aria-describedby="bg-planes-d-escala bg-planes-e-escala">
+      <a class="bg-planes__peldano bg-planes__peldano--mayor" href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes-escala" id="bg-planes-tab-escala" data-bg-plan="escala" draggable="false" style="--n:3" aria-labelledby="bg-planes-n-escala" aria-describedby="bg-planes-d-escala bg-planes-e-escala">
         <p class="bg-cota bg-planes__cota" data-bg-ver id="bg-planes-e-escala"><span class="bg-cota__linea" aria-hidden="true"></span><span class="bg-cota__txt">Entrega: Hasta 1 mes</span><span class="bg-cota__linea" aria-hidden="true"></span></p>
         <span class="bg-planes__caja">
           <span class="bg-sub bg-planes__nombre" id="bg-planes-n-escala">BG Escala</span>
@@ -1097,7 +1097,7 @@
         </span>
         <span class="bg-planes__pie" aria-hidden="true"><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M27 8h10v32l12-12 7 7-24 24L8 35l7-7 12 12z" fill="currentColor"/></svg></span>
       </a>
-      <a class="bg-planes__peldano bg-planes__peldano--mayor bg-planes__peldano--superior" href="#bg-planes-lidera" id="bg-planes-tab-lidera" data-bg-plan="lidera" draggable="false" style="--n:4" aria-labelledby="bg-planes-n-lidera" aria-describedby="bg-planes-d-lidera bg-planes-e-lidera">
+      <a class="bg-planes__peldano bg-planes__peldano--mayor bg-planes__peldano--superior" href="https://www.vemik.com.mx/bg-impulso-digital#bg-planes-lidera" id="bg-planes-tab-lidera" data-bg-plan="lidera" draggable="false" style="--n:4" aria-labelledby="bg-planes-n-lidera" aria-describedby="bg-planes-d-lidera bg-planes-e-lidera">
         <p class="bg-cota bg-planes__cota" data-bg-ver id="bg-planes-e-lidera"><span class="bg-cota__linea" aria-hidden="true"></span><span class="bg-cota__txt">Entrega: Por etapas, con fechas en tu cotización</span><span class="bg-cota__linea" aria-hidden="true"></span></p>
         <span class="bg-planes__caja bg-rojo">
           <span class="bg-sub bg-planes__nombre bg-res" id="bg-planes-n-lidera">BG Lidera</span>
@@ -1133,14 +1133,14 @@
         </dl>
       </div>
       <figure class="bg-planes__ref">
-        <a class="bg-planes__ref-img" href="#bg-otros-pilar">
+        <a class="bg-planes__ref-img" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-pilar">
           <img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/pilar-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/pilar-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/pilar-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 999px) 92vw, 30vw" width="1600" height="1000" alt="Sitio de El Pilar del Amor, proyecto de referencia de BG Despega" loading="lazy" decoding="async">
           <span class="bg-rotulo-guia bg-planes__ref-rotulo" data-bg-ver><i aria-hidden="true"></i><b>El Pilar del Amor</b></span>
         </a>
         <figcaption>
           <p class="bg-texto"><b>Proyecto de referencia: El Pilar del Amor.</b> Experiencias y arreglos para celebraciones.</p>
           
-          <a class="bg-enlace " href="#bg-otros-pilar" ><span>Ver el plano de El Pilar del Amor</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
+          <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-pilar" ><span>Ver el plano de El Pilar del Amor</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         </figcaption>
       </figure>
     </div>
@@ -1161,14 +1161,14 @@
         </dl>
       </div>
       <figure class="bg-planes__ref">
-        <a class="bg-planes__ref-img" href="#bg-otros-vv">
+        <a class="bg-planes__ref-img" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-vv">
           <img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vv-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vv-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vv-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 999px) 92vw, 30vw" width="1600" height="1000" alt="Sitio de V&amp;V Automotriz, proyecto de referencia de BG Destaca" loading="lazy" decoding="async">
           <span class="bg-rotulo-guia bg-planes__ref-rotulo" data-bg-ver><i aria-hidden="true"></i><b>V&amp;V Automotriz</b></span>
         </a>
         <figcaption>
           <p class="bg-texto"><b>Proyecto de referencia: V&amp;V Automotriz.</b> Hojalatería y pintura.</p>
           
-          <a class="bg-enlace " href="#bg-otros-vv" ><span>Ver el plano de V&amp;V Automotriz</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
+          <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-vv" ><span>Ver el plano de V&amp;V Automotriz</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         </figcaption>
       </figure>
     </div>
@@ -1189,14 +1189,14 @@
         </dl>
       </div>
       <figure class="bg-planes__ref">
-        <a class="bg-planes__ref-img" href="#bg-otros-clickoffice">
+        <a class="bg-planes__ref-img" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-clickoffice">
           <img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/clickoffice-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/clickoffice-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/clickoffice-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 999px) 92vw, 30vw" width="1600" height="1000" alt="Sitio de Click Office Pro, proyecto de referencia de BG Consolida" loading="lazy" decoding="async">
           <span class="bg-rotulo-guia bg-planes__ref-rotulo" data-bg-ver><i aria-hidden="true"></i><b>Click Office Pro</b></span>
         </a>
         <figcaption>
           <p class="bg-texto"><b>Proyecto de referencia: Click Office Pro.</b> Suministros para empresas y oficinas.</p>
           <p class="bg-chico">Proyecto vinculado al grupo.</p>
-          <a class="bg-enlace " href="#bg-otros-clickoffice" ><span>Ver el plano de Click Office Pro</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
+          <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-clickoffice" ><span>Ver el plano de Click Office Pro</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         </figcaption>
       </figure>
     </div>
@@ -1217,14 +1217,14 @@
         </dl>
       </div>
       <figure class="bg-planes__ref">
-        <a class="bg-planes__ref-img" href="#bg-machen">
+        <a class="bg-planes__ref-img" href="https://www.vemik.com.mx/bg-impulso-digital#bg-machen">
           <img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/machen-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 999px) 92vw, 30vw" width="1600" height="1000" alt="Sitio de Importadora MACHEN, proyecto de referencia de BG Escala" loading="lazy" decoding="async">
           <span class="bg-rotulo-guia bg-planes__ref-rotulo" data-bg-ver><i aria-hidden="true"></i><b>Importadora MACHEN</b></span>
         </a>
         <figcaption>
           <p class="bg-texto"><b>Proyecto de referencia: Importadora MACHEN.</b> Muebles de baño y grifería para distribuidores.</p>
           <p class="bg-chico">El visor 3D y la carga de 107 modelos fueron alcance especial de este proyecto.</p>
-          <a class="bg-enlace " href="#bg-machen" ><span>Ver el plano de Importadora MACHEN</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
+          <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-machen" ><span>Ver el plano de Importadora MACHEN</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         </figcaption>
       </figure>
     </div>
@@ -1245,14 +1245,14 @@
         </dl>
       </div>
       <figure class="bg-planes__ref">
-        <a class="bg-planes__ref-img" href="#bg-vemik">
+        <a class="bg-planes__ref-img" href="https://www.vemik.com.mx/bg-impulso-digital#bg-vemik">
           <img class="bg-captura " src="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-900.webp" srcset="https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-900.webp 900w, https://vemikventas-coder.github.io/bg-impulso-sitio/assets/proyectos/vemik-inicio-escritorio-1600.webp 1600w" sizes="(max-width: 999px) 92vw, 30vw" width="1600" height="1000" alt="Sitio de Grupo VEMIK, proyecto de referencia de BG Lidera" loading="lazy" decoding="async">
           <span class="bg-rotulo-guia bg-planes__ref-rotulo" data-bg-ver><i aria-hidden="true"></i><b>Grupo VEMIK</b></span>
         </a>
         <figcaption>
           <p class="bg-texto"><b>Proyecto de referencia: Grupo VEMIK.</b> Metales por medida y ferretería en línea.</p>
           <p class="bg-chico">Proyecto del mismo grupo empresarial que BG.</p>
-          <a class="bg-enlace " href="#bg-vemik" ><span>Ver el plano de Grupo VEMIK</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
+          <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-vemik" ><span>Ver el plano de Grupo VEMIK</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         </figcaption>
       </figure>
       <div class="bg-planes__hoy">
@@ -1295,7 +1295,7 @@
             <tr role="row"><th class="bg-rotulo" scope="row" role="rowheader">Tamaño</th><td role="cell" data-plan="BG Despega">Una página de hasta 5 bloques</td><td role="cell" data-plan="BG Destaca">Una página de hasta 8 bloques</td><td role="cell" data-plan="BG Consolida">Hasta 5 páginas</td><td role="cell" data-plan="BG Escala">Hasta 8 páginas y 6 categorías</td><td role="cell" data-plan="BG Lidera">Tienda con miles de productos, carrito, pagos y envíos</td></tr>
             <tr role="row"><th class="bg-rotulo" scope="row" role="rowheader">Catálogo</th><td role="cell" data-plan="BG Despega">Hasta 6 servicios o productos</td><td role="cell" data-plan="BG Destaca">Hasta 12 servicios o productos</td><td role="cell" data-plan="BG Consolida">Hasta 15 servicios o productos</td><td role="cell" data-plan="BG Escala">Carga inicial de hasta 40 productos con ficha</td><td role="cell" data-plan="BG Lidera">Carga masiva y orden de tu catálogo</td></tr>
             <tr role="row"><th class="bg-rotulo" scope="row" role="rowheader">Renovación anual</th><td role="cell" data-plan="BG Despega"><span class="bg-precio bg-precio--chico" data-bg-precio="1500"><span class="bg-precio__num"><b data-bg-precio-num>$1,740</b> <small>al año</small></span><span class="bg-precio__nota" data-bg-precio-nota>con IVA incluido</span></span></td><td role="cell" data-plan="BG Destaca"><span class="bg-precio bg-precio--chico" data-bg-precio="3000"><span class="bg-precio__num"><b data-bg-precio-num>$3,480</b> <small>al año</small></span><span class="bg-precio__nota" data-bg-precio-nota>con IVA incluido</span></span></td><td role="cell" data-plan="BG Consolida"><span class="bg-precio bg-precio--chico" data-bg-precio="6000"><span class="bg-precio__num"><b data-bg-precio-num>$6,960</b> <small>al año</small></span><span class="bg-precio__nota" data-bg-precio-nota>con IVA incluido</span></span></td><td role="cell" data-plan="BG Escala"><span class="bg-precio bg-precio--chico" data-bg-precio="7000"><span class="bg-precio__num"><b data-bg-precio-num>$8,120</b> <small>al año</small></span><span class="bg-precio__nota" data-bg-precio-nota>con IVA incluido</span></span></td><td role="cell" data-plan="BG Lidera"><span class="bg-planes__dato">Se indica en tu cotización</span></td></tr>
-            <tr role="row"><th class="bg-rotulo" scope="row" role="rowheader">Proyecto de referencia</th><td role="cell" data-plan="BG Despega"><a class="bg-planes__tabla-ref" href="#bg-otros-pilar">El Pilar del Amor</a></td><td role="cell" data-plan="BG Destaca"><a class="bg-planes__tabla-ref" href="#bg-otros-vv">V&amp;V Automotriz</a></td><td role="cell" data-plan="BG Consolida"><a class="bg-planes__tabla-ref" href="#bg-otros-clickoffice">Click Office Pro</a></td><td role="cell" data-plan="BG Escala"><a class="bg-planes__tabla-ref" href="#bg-machen">Importadora MACHEN</a></td><td role="cell" data-plan="BG Lidera"><a class="bg-planes__tabla-ref" href="#bg-vemik">Grupo VEMIK</a></td></tr>
+            <tr role="row"><th class="bg-rotulo" scope="row" role="rowheader">Proyecto de referencia</th><td role="cell" data-plan="BG Despega"><a class="bg-planes__tabla-ref" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-pilar">El Pilar del Amor</a></td><td role="cell" data-plan="BG Destaca"><a class="bg-planes__tabla-ref" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-vv">V&amp;V Automotriz</a></td><td role="cell" data-plan="BG Consolida"><a class="bg-planes__tabla-ref" href="https://www.vemik.com.mx/bg-impulso-digital#bg-otros-clickoffice">Click Office Pro</a></td><td role="cell" data-plan="BG Escala"><a class="bg-planes__tabla-ref" href="https://www.vemik.com.mx/bg-impulso-digital#bg-machen">Importadora MACHEN</a></td><td role="cell" data-plan="BG Lidera"><a class="bg-planes__tabla-ref" href="https://www.vemik.com.mx/bg-impulso-digital#bg-vemik">Grupo VEMIK</a></td></tr>
           </tbody>
         </table>
         </div>
@@ -1605,11 +1605,11 @@
         <div class="bg-cajetin__celda"><small>Lámina</small><b>10 / 10</b></div>
         <div class="bg-cajetin__celda bg-cierre__pie">
           <p>BG Impulso Digital · José Barrera García · Atizapán, Estado de México · 2026</p>
-          <a class="bg-enlace " href="#bg-portada" ><span>Volver a la portada</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
+          <a class="bg-enlace " href="https://www.vemik.com.mx/bg-impulso-digital#bg-portada" ><span>Volver a la portada</span><svg class="bg-ico " viewBox="0 0 64 64" aria-hidden="true" focusable="false"><path d="M15 48L44 19H22V10H54V42H45V26L22 55Z" fill="currentColor"/></svg></a>
         </div>
       </div>
     </div></div>
   <p class="bg-lamina__sello" aria-hidden="true"><b>L-10</b><span>Cierre</span></p>
 </section>
 </div>
-<script src="https://vemikventas-coder.github.io/bg-impulso-sitio/bg.js?v=mwjle1oh" defer></script>
+<script src="https://vemikventas-coder.github.io/bg-impulso-sitio/bg.js?v=mwjo2ua4" defer></script>

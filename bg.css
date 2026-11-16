@@ -10,7 +10,7 @@
 #bg-app :where([hidden]){display:none !important}
 #bg-app ::selection{background:var(--tin); color:var(--sup)}
 #bg-app :where(a,button,summary,input,[tabindex]):focus-visible{outline:3px solid var(--tin); outline-offset:3px}
-html:has(#bg-app){scrollbar-color:#101113 #ff4438; scroll-behavior:smooth; scroll-padding-top:calc(var(--barra,64px) + 12px)}
+html:has(#bg-app){scrollbar-color:#101113 #ff4438; scroll-behavior:smooth; scroll-padding-top:calc(clamp(56px,5.2vw,74px) + 6px)}
 @media (prefers-reduced-motion:reduce){html:has(#bg-app){scroll-behavior:auto}
 }#bg-app .bg-lamina{position:relative; padding:var(--margen); background:var(--sup); color:var(--tin)}
 #bg-app .bg-lamina::before{content:""; position:absolute; inset:0; pointer-events:none;background-image:linear-gradient(var(--ret) 1px,transparent 1px),linear-gradient(90deg,var(--ret) 1px,transparent 1px);background-size:var(--reticula) var(--reticula)}
@@ -152,8 +152,8 @@ html:has(#bg-app){scrollbar-color:#101113 #ff4438; scroll-behavior:smooth; scrol
 #bg-app #bg-cotizar{contain-intrinsic-size:auto 1523px}
 #bg-app #bg-equipo{contain-intrinsic-size:auto 2570px}
 #bg-app #bg-cierre{contain-intrinsic-size:auto 2109px}
-}#bg-app .bg-lamina{scroll-margin-top:var(--barra)}
-#bg-app .bg-barra{position:sticky; top:0; z-index:60; display:flex; align-items:stretch; height:var(--barra); background:var(--rojo); color:var(--tinta);border-bottom:var(--linea) solid var(--tinta); --sup:var(--rojo); --tin:var(--tinta)}
+}@supports not selector(:has(*)){#bg-app .bg-lamina,#bg-app [id^="bg-"]{scroll-margin-top:calc(var(--barra) + 12px)}
+}#bg-app .bg-barra{position:sticky; top:0; z-index:60; display:flex; align-items:stretch; height:var(--barra); background:var(--rojo); color:var(--tinta);border-bottom:var(--linea) solid var(--tinta); --sup:var(--rojo); --tin:var(--tinta)}
 #bg-app .bg-barra__logo{display:flex; align-items:center; padding:0 clamp(14px,2.2vw,30px); border-right:var(--linea) solid var(--tinta)}
 #bg-app .bg-logo{display:inline-flex; align-items:center; gap:.28em; font:900 clamp(33.6px,3vw,44.8px)/.8 var(--f-titular); letter-spacing:-.01em; text-transform:uppercase}
 #bg-app .bg-logo__flecha{width:.5em; height:.5em; margin-left:-.02em; transition:transform .45s var(--suave)}
