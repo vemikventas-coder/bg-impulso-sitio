@@ -274,13 +274,20 @@ html:has(#bg-app){scrollbar-color:#101113 #ff4438; scroll-behavior:smooth; scrol
 #bg-app .bg-indice__tipo{grid-area:tipo; align-self:end}
 #bg-app .bg-indice__cierre{grid-template-columns:minmax(0,1fr); grid-template-rows:auto; grid-template-areas:"dicho" "fecha" "boton"; gap:8px;padding:clamp(20px,5.2vw,30px) var(--ind-lado) 10px}
 #bg-app .bg-indice__cierre .bg-btn{margin-top:10px}
-}#bg-app .bg-portada .bg-lamina__cuerpo{display:grid; grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr); grid-template-rows:1fr auto;grid-template-areas:"titulo pieza" "oferta cajetin"; padding:0}
+}#bg-app .bg-portada .bg-lamina__cuerpo{display:grid; grid-template-columns:minmax(0,1.06fr) minmax(0,.94fr); grid-template-rows:1fr auto auto;grid-template-areas:"titulo pieza" "oferta cajetin" "servicios servicios"; padding:0}
 #bg-app .bg-portada .bg-lamina__sello{display:none}
 #bg-app .bg-portada__titulo{grid-area:titulo; display:grid; grid-template-columns:auto auto; justify-content:start; align-content:start;column-gap:clamp(12px,1.9vw,30px); row-gap:clamp(14px,1.6vw,24px); padding:clamp(22px,3.1vw,46px) 0 0 var(--pad)}
-#bg-app .bg-portada__titulo .bg-titular span{display:block}
+#bg-app .bg-portada .bg-titular{font-size:clamp(70.4px,min(10.6vw,16vh),166.4px)}
+#bg-app .bg-portada__titulo .bg-titular > span{display:block}
 #bg-app .bg-portada__cv{grid-column:2; grid-row:1; align-self:stretch; justify-self:start}
 #bg-app .bg-portada__ch{grid-column:1; grid-row:2}
-#bg-app .bg-portada__pieza{grid-area:pieza; position:relative; min-height:clamp(300px,34vw,520px); margin:clamp(10px,1.4vw,22px) 0 0}
+#bg-app .bg-portada__gira{display:grid; justify-items:start}
+#bg-app .bg-portada__palabra{grid-area:1 / 1; white-space:nowrap; visibility:hidden}
+#bg-app .bg-portada__palabra--activa{visibility:visible}
+#bg-app.bg-js .bg-portada__palabra{visibility:visible; clip-path:inset(-.3em 100% -.3em 0); transition:clip-path .5s var(--suave)}
+#bg-app.bg-js .bg-portada__palabra--activa{clip-path:inset(-.3em -.1em -.3em 0); transition-delay:.2s}
+#bg-app.bg-js .bg-portada__palabra--sale{clip-path:inset(-.3em -.1em -.3em 100%)}
+#bg-app .bg-portada__pieza{grid-area:pieza; position:relative; min-height:clamp(250px,25vw,460px); margin:clamp(10px,1.4vw,22px) 0 0}
 #bg-app .bg-portada__escena{--abre:clamp(84px,7.8vw,118px); position:absolute; inset:0; perspective:1900px; perspective-origin:50% 40%}
 #bg-app .bg-portada__capa{--z:calc((2 - var(--i)) * var(--abre) * var(--abre-x,1)); position:absolute; left:5%; top:57%; width:60%; aspect-ratio:16/10; display:block;border:var(--linea) solid var(--tinta); background:var(--papel);background-image:linear-gradient(to top right,transparent calc(50% - 1px),rgba(16,17,19,.5) calc(50% - 1px),rgba(16,17,19,.5) calc(50% + 1px),transparent calc(50% + 1px)),linear-gradient(to bottom right,transparent calc(50% - 1px),rgba(16,17,19,.5) calc(50% - 1px),rgba(16,17,19,.5) calc(50% + 1px),transparent calc(50% + 1px));transform:translateY(-50%) rotateX(calc(58deg + var(--gx,0deg))) rotateZ(calc(-34deg + var(--gz,0deg))) translateZ(var(--z));box-shadow:-26px 30px 38px -14px rgba(16,17,19,.42); transition:translate .5s var(--suave); will-change:transform}
 #bg-app .bg-portada__capa img{width:100%; height:100%; object-fit:cover; object-position:top; border:0}
@@ -290,18 +297,44 @@ html:has(#bg-app){scrollbar-color:#101113 #ff4438; scroll-behavior:smooth; scrol
 #bg-app .bg-portada__rotulos{position:absolute; inset:0; pointer-events:none}
 #bg-app .bg-portada__rotulos .bg-rotulo-guia{position:absolute; right:clamp(8px,1.4vw,20px); top:calc(15% + var(--i) * 26%)}
 #bg-app .bg-portada .bg-cota{font-size:clamp(15.68px,1.4vw,22.08px)}
-#bg-app .bg-portada__oferta{grid-area:oferta; display:grid; align-content:end; justify-items:start; gap:clamp(16px,2vw,30px); padding:clamp(18px,2.4vw,34px) var(--pad) var(--pad)}
-#bg-app .bg-portada__cajetin{grid-area:cajetin; align-self:end; grid-template-columns:1fr 1fr 1.25fr; margin:0 calc(var(--linea) * -1) calc(var(--linea) * -1) 0}
-#bg-app .bg-portada__cajetin .bg-cajetin__accion{grid-column:3; grid-row:1 / span 3}
+#bg-app .bg-portada__oferta{grid-area:oferta; display:grid; align-content:end; justify-items:start; padding:clamp(12px,1.4vw,22px) var(--pad) clamp(16px,1.9vw,28px)}
+#bg-app .bg-portada__oferta .bg-texto--grande{max-width:46ch}
+@media (min-width:981px){#bg-app .bg-portada__dato{display:none}
+}#bg-app .bg-portada__cajetin{grid-area:cajetin; align-self:end; grid-template-columns:1fr 1fr 1.25fr; margin:0 calc(var(--linea) * -1) calc(var(--linea) * -1) 0}
+#bg-app .bg-portada__cajetin .bg-cajetin__accion{grid-column:3; grid-row:1 / span 2}
 #bg-app .bg-portada__tipos{grid-column:1 / span 2; display:flex; flex-wrap:wrap; align-content:center; gap:8px; padding:.75em .95em}
-@media (max-width:980px){#bg-app .bg-portada .bg-lamina__cuerpo{grid-template-columns:minmax(0,1fr); grid-template-rows:auto; grid-template-areas:"titulo" "pieza" "oferta" "cajetin"}
-#bg-app .bg-portada__titulo{grid-template-columns:minmax(0,1fr); padding:clamp(20px,5vw,40px) var(--pad) 0}
-#bg-app .bg-portada__cv{grid-column:1; grid-row:3; writing-mode:horizontal-tb; transform:none; justify-self:stretch}
-#bg-app .bg-portada__pieza{min-height:clamp(300px,82vw,520px); margin-top:clamp(18px,5vw,30px)}
+#bg-app .bg-portada__servicios{grid-area:servicios; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); border-top:var(--linea) solid var(--tinta)}
+#bg-app .bg-portada__servicio{display:flex; align-items:center; gap:clamp(10px,1.1vw,18px); min-height:clamp(62px,min(5.4vw,8.6vh),80px); padding:.45em clamp(12px,1.5vw,24px);border-left:var(--linea) solid var(--tinta); color:var(--tinta); font:800 clamp(16.32px,1.28vw,21.44px)/1.04 var(--f-rotulo); letter-spacing:.05em; text-transform:uppercase;transition:background-color .28s var(--suave)}
+#bg-app .bg-portada__servicio:first-child{border-left:0}
+#bg-app .bg-portada__servicio .bg-servicios__losa{flex:none; width:clamp(48px,4.5vw,70px); height:auto; transition:transform .45s var(--suave)}
+#bg-app .bg-portada__servicio .bg-servicios__losa *{vector-effect:non-scaling-stroke; stroke-width:1.6px}
+#bg-app .bg-portada__servicio .bg-servicios__losa .bg-servicios__t--fina{stroke-width:1px}
+#bg-app .bg-portada__servicio .bg-servicios__losa .bg-servicios__t--sin{stroke-width:0}
+#bg-app .bg-portada__servicio b{flex:1 1 auto; font-weight:800; text-wrap:balance}
+#bg-app .bg-portada__servicio .bg-ico{flex:none; width:.82em; height:.82em; transition:transform .4s var(--suave)}
+@media (hover:hover){#bg-app .bg-portada__servicio:hover{background:var(--papel)}
+#bg-app .bg-portada__servicio:hover .bg-servicios__losa{transform:translateY(-5px)}
+#bg-app .bg-portada__servicio:hover .bg-ico{transform:translateY(.2em)}
+}#bg-app .bg-portada__servicio:active{background:var(--papel)}
+@media (min-width:981px){#bg-app .bg-portada__capa{left:13%; width:56%}
+}@media (min-width:981px) and (max-height:820px){#bg-app .bg-portada .bg-titular{font-size:clamp(70.4px,min(10.6vw,13.4vh),166.4px)}
+#bg-app .bg-portada__titulo{padding-top:clamp(14px,1.9vw,28px); row-gap:clamp(10px,1.2vw,18px)}
+#bg-app .bg-portada__servicio{min-height:60px}
+}@media (max-width:980px){#bg-app .bg-portada .bg-lamina__cuerpo{grid-template-columns:minmax(0,1fr); grid-template-rows:auto;grid-template-areas:"t" "servicios" "oferta" "ch" "cv" "pieza" "cajetin"}
+#bg-app .bg-portada__titulo{display:contents}
+#bg-app .bg-portada .bg-titular{grid-area:t; padding:clamp(20px,5vw,40px) var(--pad) clamp(16px,4.4vw,26px)}
+#bg-app .bg-portada__ch{grid-area:ch; margin:0 var(--pad)}
+#bg-app .bg-portada__cv{grid-area:cv; writing-mode:horizontal-tb; transform:none; justify-self:stretch; margin:clamp(12px,3vw,18px) var(--pad) 0}
+#bg-app .bg-portada__servicios{grid-template-columns:repeat(2,minmax(0,1fr)); border-bottom:var(--linea) solid var(--tinta)}
+#bg-app .bg-portada__servicio{min-height:66px; padding:.5em clamp(10px,3.4vw,18px); gap:10px}
+#bg-app .bg-portada__servicio:nth-child(odd){border-left:0}
+#bg-app .bg-portada__servicio:nth-child(n+3){border-top:var(--linea) solid var(--tinta)}
+#bg-app .bg-portada__servicio .bg-servicios__losa{width:46px}
+#bg-app .bg-portada__oferta{padding-top:clamp(16px,4.4vw,24px); padding-bottom:clamp(18px,4.6vw,26px)}
+#bg-app .bg-portada__pieza{min-height:clamp(300px,82vw,520px); margin-top:clamp(10px,3vw,20px)}
 #bg-app .bg-portada__escena{--abre:clamp(52px,13vw,96px)}
 #bg-app .bg-portada__capa{left:6%; width:64%; top:60%}
 #bg-app .bg-portada__rotulos .bg-rotulo-guia{right:var(--pad); top:calc(12% + var(--i) * 27%); font-size:13.12px; letter-spacing:.05em}
-#bg-app .bg-portada__oferta{padding-top:10px; padding-bottom:clamp(22px,5vw,36px)}
 #bg-app .bg-portada__cajetin{grid-template-columns:1fr 1fr; margin:0 calc(var(--linea) * -1) calc(var(--linea) * -1)}
 #bg-app .bg-portada__cajetin .bg-cajetin__accion{grid-column:1 / -1; grid-row:auto}
 #bg-app .bg-portada__tipos{grid-column:1 / -1}
@@ -309,6 +342,8 @@ html:has(#bg-app){scrollbar-color:#101113 #ff4438; scroll-behavior:smooth; scrol
 #bg-app .bg-portada__rotulos .bg-rotulo-guia b{padding:.4em .5em}
 #bg-app .bg-portada__cv{font-size:13.12px}
 #bg-app .bg-portada__ch .bg-cota__txt{max-width:15em}
+#bg-app .bg-portada__servicio{font-size:15.04px; letter-spacing:.04em}
+#bg-app .bg-portada__servicio .bg-ico{display:none}
 }#bg-app .bg-vemik .bg-lamina__cuerpo{padding:0}
 #bg-app .bg-vemik .bg-rojo{background-image:linear-gradient(rgba(16,17,19,.085) 1px,transparent 1px),linear-gradient(90deg,rgba(16,17,19,.085) 1px,transparent 1px); background-size:var(--reticula) var(--reticula)}
 #bg-app .bg-vemik__cabeza{display:grid; grid-template-columns:minmax(0,1fr); row-gap:14px; padding:clamp(22px,3.1vw,46px) var(--pad) clamp(18px,2.1vw,30px)}

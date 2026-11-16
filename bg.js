@@ -258,6 +258,27 @@
   // De línea a luz: los planos se llenan en cuanto la portada está lista.
   requestAnimationFrame(function () { requestAnimationFrame(function () { portada.classList.add('bg-lista'); }); });
 
+  // Titular: la palabra cambia y va nombrando, una por una, las cosas que hacemos. Se detiene si la portada
+  // no está a la vista o la pestaña está oculta. Con movimiento reducido se queda en la primera.
+  var gira = portada.querySelector('[data-bg-gira]');
+  if (gira && !BG.reducido) {
+    var palabras = [].slice.call(gira.querySelectorAll('.bg-portada__palabra')), cual = 0, reloj = null, aLaVista = true;
+    var cambiar = function () {
+      var sale = palabras[cual];
+      cual = (cual + 1) % palabras.length;
+      sale.classList.add('bg-portada__palabra--sale'); sale.classList.remove('bg-portada__palabra--activa');
+      palabras[cual].classList.remove('bg-portada__palabra--sale'); palabras[cual].classList.add('bg-portada__palabra--activa');
+      setTimeout(function () { sale.classList.remove('bg-portada__palabra--sale'); }, 750);
+    };
+    var parar = function () { clearInterval(reloj); reloj = null; };
+    var andar = function () { if (!reloj && aLaVista && !document.hidden && palabras.length > 1) reloj = setInterval(cambiar, 2000); };
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (es) { aLaVista = es[0].isIntersecting; if (aLaVista) andar(); else parar(); }, { threshold: 0.2 }).observe(gira);
+    }
+    document.addEventListener('visibilitychange', function () { if (document.hidden) parar(); else andar(); });
+    setTimeout(andar, 500);
+  }
+
   if (BG.reducido) return;
   var escena = portada.querySelector('.bg-portada__escena'); if (!escena) return;
   var capas = [].slice.call(escena.querySelectorAll('.bg-portada__capa'));
