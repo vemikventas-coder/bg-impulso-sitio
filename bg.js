@@ -24,16 +24,29 @@
 
   /* ── Revelado: marca .bg-visto la primera vez que el elemento entra en pantalla ── */
   var puedeObservar = 'IntersectionObserver' in window && !reducido;
+  /* Un elemento con data-bg-ver="corte" empieza recortado por completo (clip-path al 100 %): para el observador
+     no ocupa área visible, nunca «entra» en pantalla y se quedaría tapado junto con su imagen. Por eso se observa
+     a su contenedor (el primero que no esté recortado) y al entrar ese se revela el elemento. */
+  var encargos = [];   // pares [contenedor observado, elemento a revelar]
   var io = puedeObservar ? new IntersectionObserver(function (entradas) {
     entradas.forEach(function (e) {
       if (!e.isIntersecting) return;
-      e.target.classList.add('bg-visto');
-      io.unobserve(e.target);
+      var t = e.target;
+      if (t.hasAttribute('data-bg-ver') && t.getAttribute('data-bg-ver') !== 'corte') t.classList.add('bg-visto');
+      for (var i = encargos.length - 1; i >= 0; i--) {
+        if (encargos[i][0] === t) { encargos[i][1].classList.add('bg-visto'); encargos.splice(i, 1); }
+      }
+      io.unobserve(t);
     });
   }, { rootMargin: '0px 0px -10% 0px', threshold: 0.1 }) : null;
   BG.observar = function (raiz) {
     (raiz || app).querySelectorAll('[data-bg-ver]').forEach(function (el) {
-      if (io) io.observe(el); else el.classList.add('bg-visto');
+      if (!io) { el.classList.add('bg-visto'); return; }
+      if (el.getAttribute('data-bg-ver') !== 'corte') { io.observe(el); return; }
+      var c = el.parentElement;
+      while (c && c !== app && c.getAttribute('data-bg-ver') === 'corte') c = c.parentElement;
+      if (!c) { el.classList.add('bg-visto'); return; }
+      encargos.push([c, el]); io.observe(c);
     });
   };
   /* alVer(el, fn): ejecuta fn una vez cuando el elemento entra en pantalla (sin observador: de inmediato). */
@@ -1381,6 +1394,22 @@
     if (document.readyState === 'complete') ir(); else window.addEventListener('load', ir);
   }
   alCargar(function () { ocioso(calentar); }, 300);
+
+  /* ── Cercanía: cuando una lámina está a pantalla y media de distancia, sus imágenes dejan de ser «perezosas» y
+     se piden ya. La carga perezosa del navegador no pide una imagen recortada, girada en 3D o aún sin revelar,
+     y el visitante llegaba antes que la imagen. Las vistas previas ocultas y los pósters del 3D no entran. ── */
+  if ('IntersectionObserver' in window) {
+    var cerca = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        cerca.unobserve(e.target);
+        [].forEach.call(e.target.querySelectorAll('img[loading="lazy"]'), function (im) {
+          if (!im.closest('.bg-machen__poster, .bg-indice__vista')) im.loading = 'eager';
+        });
+      });
+    }, { rootMargin: '150% 0px 150% 0px' });
+    [].forEach.call(BG.app.querySelectorAll('.bg-lamina'), function (l) { cerca.observe(l); });
+  }
 
   var red = navigator.connection || {};
   if (red.saveData || /(^|-)2g$/.test(red.effectiveType || '')) return;
