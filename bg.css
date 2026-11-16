@@ -281,12 +281,12 @@ html:has(#bg-app){scrollbar-color:#101113 #ff4438; scroll-behavior:smooth; scrol
 #bg-app .bg-portada__titulo .bg-titular > span{display:block}
 #bg-app .bg-portada__cv{grid-column:2; grid-row:1; align-self:stretch; justify-self:start}
 #bg-app .bg-portada__ch{grid-column:1; grid-row:2}
-#bg-app .bg-portada__gira{display:grid; justify-items:start}
-#bg-app .bg-portada__palabra{grid-area:1 / 1; white-space:nowrap; visibility:hidden}
-#bg-app .bg-portada__palabra--activa{visibility:visible}
-#bg-app.bg-js .bg-portada__palabra{visibility:visible; clip-path:inset(-.3em 100% -.3em 0); transition:clip-path .5s var(--suave)}
-#bg-app.bg-js .bg-portada__palabra--activa{clip-path:inset(-.3em -.1em -.3em 0); transition-delay:.2s}
-#bg-app.bg-js .bg-portada__palabra--sale{clip-path:inset(-.3em -.1em -.3em 100%)}
+#bg-app .bg-portada__titulo .bg-titular > .bg-portada__gira{display:grid; grid-template-columns:max-content; justify-items:start; justify-content:start}
+#bg-app .bg-portada__titulo .bg-titular .bg-portada__palabra{display:block; grid-area:1 / 1; white-space:nowrap; visibility:hidden}
+#bg-app .bg-portada__titulo .bg-titular .bg-portada__palabra--activa{visibility:visible}
+#bg-app.bg-js .bg-portada__titulo .bg-titular .bg-portada__palabra{visibility:visible; clip-path:inset(-.3em 100% -.3em 0); transition:clip-path .5s var(--suave)}
+#bg-app.bg-js .bg-portada__titulo .bg-titular .bg-portada__palabra--activa{clip-path:inset(-.3em -.1em -.3em 0); transition-delay:.2s}
+#bg-app.bg-js .bg-portada__titulo .bg-titular .bg-portada__palabra--sale{clip-path:inset(-.3em -.1em -.3em 100%)}
 #bg-app .bg-portada__pieza{grid-area:pieza; position:relative; min-height:clamp(250px,25vw,460px); margin:clamp(10px,1.4vw,22px) 0 0}
 #bg-app .bg-portada__escena{--abre:clamp(84px,7.8vw,118px); position:absolute; inset:0; perspective:1900px; perspective-origin:50% 40%}
 #bg-app .bg-portada__capa{--z:calc((2 - var(--i)) * var(--abre) * var(--abre-x,1)); position:absolute; left:5%; top:57%; width:60%; aspect-ratio:16/10; display:block;border:var(--linea) solid var(--tinta); background:var(--papel);background-image:linear-gradient(to top right,transparent calc(50% - 1px),rgba(16,17,19,.5) calc(50% - 1px),rgba(16,17,19,.5) calc(50% + 1px),transparent calc(50% + 1px)),linear-gradient(to bottom right,transparent calc(50% - 1px),rgba(16,17,19,.5) calc(50% - 1px),rgba(16,17,19,.5) calc(50% + 1px),transparent calc(50% + 1px));transform:translateY(-50%) rotateX(calc(58deg + var(--gx,0deg))) rotateZ(calc(-34deg + var(--gz,0deg))) translateZ(var(--z));box-shadow:-26px 30px 38px -14px rgba(16,17,19,.42); transition:translate .5s var(--suave); will-change:transform}
